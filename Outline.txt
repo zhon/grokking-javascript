@@ -1,0 +1,12 @@
+
+Introduction
+  Javascript written in 2 weeks by Brendan Eich
+  Some argue Javascript is most popular language by lines of code and programers
+  Alistair's http://alistair.cockburn.us/Elephant+Carpaccio+exercise
+
+Closure
+  Scope
+  Capture
+
+
+

@@ -1,0 +1,19 @@
+from http://www.2ality.com/2012/02/js-pitfalls.html
+Major Javascript pitfalls
+  Dynamic this
+  Subtyping is difficult
+
+Minor Javascript pitfalls
+  Function-scoped variables
+  Inadvertent sharing via closures
+  Extracted methods can’t use this
+  Creating global variables via this
+  Automatic creation of globals
+  Comparison via == is weird
+  for...in is weird
+  Array-like objects
+  truthy and falsy values; having both undefined and null
+
+
+ES5 compatibility
+  https://github.com/kriskowal/es5-shim/
