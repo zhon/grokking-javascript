@@ -1,3 +1,11 @@
+To master javascript, you only need to master functions and objects. The rest is simply noise.
+To reduce the noise follow "Javascript The Good Parts" by Douglas Crockford
+(and "use strict";)
+
+Because of time, we are only going to talk about functions.
+Now the funny thing about functions is you can call them now or you can call them later (or you can call them not at all).
+
+
 from http://www.2ality.com/2012/02/js-pitfalls.html
 Major Javascript pitfalls
   Dynamic this
@@ -17,3 +25,11 @@ Minor Javascript pitfalls
 
 ES5 compatibility
   https://github.com/kriskowal/es5-shim/
+
+Libraries I am not going to talk about
+  JQuery
+  Modernizer
+  Impress
+  Express
+  Connect
+
