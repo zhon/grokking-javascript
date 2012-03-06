@@ -10,16 +10,19 @@ Functions
   functional programming libraries
     http://osteele.com/sources/javascript/functional/
     http://documentcloud.github.com/underscore/
+  underscore.js if your missing something
 
 Scope
   Lexically vs Dynamically
   Call chain
   Activation object (call object)
   this
+  hoisting
 
 Closure
   Scope
   Capture
+  Usefulness (timers, callbacks, event listeners, private protperties, partial function (curried functions))
 
 Bind
 

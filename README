@@ -1,10 +1,18 @@
-To master javascript, you only need to master functions and objects. The rest is simply noise.
-To reduce the noise follow "Javascript The Good Parts" by Douglas Crockford
-(and "use strict";)
+Javascript is cool! <Dr Who in a Stetson>
 
-Because of time, we are only going to talk about functions.
+<history and stats>
+
+<inspire>
+
+<brilliant>
+
+To master javascript, you need to understand functions and objects. Oddly enough, it turns out functions are objects; therefore, your mastery of javascript begins with objects. We will begin with the most importaint object subset: functions.
+
+I realize, some of you are thinking, I don't want mastery, I only want IE bug workarounds to make my unicorns dance over rainbows. To you I say, use Modernizr, "use strict"; attend the HTML5/CSS3 session and get out! I am serious GET OUT!
+
 Now the funny thing about functions is you can call them now or you can call them later (or you can call them not at all).
 
+<inspire>
 
 from http://www.2ality.com/2012/02/js-pitfalls.html
 Major Javascript pitfalls
