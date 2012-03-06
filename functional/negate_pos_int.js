@@ -22,3 +22,10 @@ var negativeNumbers = positiveNumbers.map(negate)
 var negativeNumbers = Array.prototype.map.call(positiveNumbers, negate);
 
 print(negativeNumbers);
+
+// where can i read more?
+// see good functional programing jquery
+// javascript the good parts
+
+// Start with suspending your object oriented mind
+// image: salvador dali

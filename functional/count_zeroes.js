@@ -43,3 +43,7 @@ function equal(x) {
 function countZeroes(array) {
   return count(equal(0), array);
 }
+
+// lifetime
+// no need for naming stuff
+// no worries

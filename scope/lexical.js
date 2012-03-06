@@ -7,16 +7,18 @@ var f = function () {
     print(x);
   }
 };
-f();
+f()();
 
 // Error, undefined, 1, null
 
+// seperate out hoisting and functional hoisting
+// scope
 (function() {
-  var x = 1;
+  var x;
   var fn = function() {
     print(x);
   };
-  var y = 2;
+  x = 1;
   return fn;
 })()();
 
@@ -28,9 +30,13 @@ f();
     print(y);
   };
   var y = 2;
-})
+})()();
 
-('_')('#')
+
+// talk about arguments?
+
+
+// uses jslint or jshint
 
 
 
