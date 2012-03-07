@@ -1,11 +1,11 @@
 "use strict";
-if (typeof print != 'function') var print = console.log;
+var print = console.log;
 
 var f = function () {
   var x = 1;
   return function() {
     print(x);
-  }
+  };
 };
 f()();
 
@@ -14,13 +14,13 @@ f()();
 // seperate out hoisting and functional hoisting
 // scope
 (function() {
-  var x;
-  var fn = function() {
+  var x,
+      fn = function() {
     print(x);
   };
   x = 1;
   return fn;
-})()();
+}())();
 
 
 (function() {
@@ -30,7 +30,7 @@ f()();
     print(y);
   };
   var y = 2;
-})()();
+}())();
 
 
 // talk about arguments?
