@@ -28,5 +28,11 @@ Closure
 
 Bind
 
+Where do we go from here and were can we see this in action
+  Documentation?
+  Libraries to study
+  Libraries to use
+  http://es5.github.com
+
 
 
