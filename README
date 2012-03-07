@@ -1,14 +1,20 @@
+Javascript is a wonderful language composed of objects, functions and landmines.
+
+Javascript is for more than dancing unicorns and rainbows. The days of fighting browser bugs and stepping on language landmines are almost gone. With ECMAScript 5 ("use strict";), JSLint and simplifying your language features:
+
 Javascript is cool! <Dr Who in a Stetson>
 
+
+IO,
 <history and stats>
 
 <inspire>
 
 <brilliant>
 
-To master javascript, you need to understand functions and objects. Oddly enough, it turns out functions are objects; therefore, your mastery of javascript begins with objects. We will begin with the most importaint object subset: functions.
+functions are objects
 
-I realize, some of you are thinking, I don't want mastery, I only want IE bug workarounds to make my unicorns dance over rainbows. To you I say, use Modernizr, "use strict"; attend the HTML5/CSS3 session and get out! I am serious GET OUT!
+Modernizr, "use strict";
 
 Now the funny thing about functions is you can call them now or you can call them later (or you can call them not at all).
 
