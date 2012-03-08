@@ -11,19 +11,29 @@ div#impress
     p zhon@xputah.org
     p github.com/zhon
 
-  div#strict-lint.step
-    p "use strict";
+  div.step
     p Modernizer
+
+  div.step
+    p "use strict";
+
+  div#strict-lint.step
     p JSLint.js
 
   div#javascript-is-cool.step(data-x="-1000", data-y="-1500")
     img(src="/images/drwho_stetson.jpg", alt="Dr Who is Cool")
     p Javascript is cool
 
-  div#objects-functions-landmines.step
-    p Objects
-    p Functions
-    p Landmines
+  div#objects.step
+    h1 Objects
+    pre
+      include ../../examples/person.js
+
+  div#functions.step
+    h1 Functions
+
+  div#landmines.step
+    h1 Landmines
 
   div#its.step(data-x="850", data-y="3000", data-rotate="90", data-scale="5")
     h1 Functions
