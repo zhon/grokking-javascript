@@ -8,20 +8,32 @@ var f = function () {
   };
 };
 f()();
-
 // Error, undefined, 1, null
 
-// seperate out hoisting and functional hoisting
-// scope
+
 (function() {
-  var x,
-      fn = function() {
+  print(x);
+}());
+// Error, undefined, 1, null
+
+(function() {
+  print(x);
+  var x = 1;
+}());
+// Error, undefined, 1, null
+
+
+(function() {
+  var x, fn = function() {
     print(x);
   };
   x = 1;
   return fn;
 }())();
+// Error, undefined, 1, null
 
+
+// seperate out hoisting and functional hoisting
 
 (function() {
   var x = 1;
