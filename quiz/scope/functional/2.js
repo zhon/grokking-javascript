@@ -1,8 +1,7 @@
 "use strict";
-var print = console.log;
 
 (function() {
-  print(x);
+  console.log(x);
 }());
 // Error, undefined, 1, null
 

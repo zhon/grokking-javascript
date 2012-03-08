@@ -1,9 +1,8 @@
 "use strict";
-var print = console.log;
 
 (function() {
   return function() {
-    print(x);
+    console.log(x);
   };
   var x = 1;
 }())();

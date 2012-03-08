@@ -1,15 +1,14 @@
 "use strict";
-var print = console.log;
 
 var x = "Javascript is cool";
-f = (function() {
+var f = (function() {
   var x = 1;
   return function() {
-    print(x);
+    console.log(x);
     x += 1;
   };
 }());
 f();
-print(x);
+console.log(x);
 f();
 

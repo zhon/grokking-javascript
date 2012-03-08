@@ -1,10 +1,9 @@
 "use strict";
-var print = console.log;
 
 var f = function () {
   var x = 1;
   return function() {
-    print(x);
+    console.log(x);
   };
 };
 f()();
