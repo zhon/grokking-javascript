@@ -1,8 +1,7 @@
 "use strict";
-var print = console.log;
 
 var x = function () {
   return 1;
 };
-print(typeof x);
+console.log(typeof x);
 // number function undefined error
