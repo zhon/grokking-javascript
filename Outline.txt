@@ -28,6 +28,12 @@ Closure
 
 Bind
 
+Falsy
+  false, '', null, undefined, NaN, 0
+  [] == ![] == !![] == true // WAT
+  [] != true // WAT
+  Boolean([]) != Boolean(![])
+
 Where do we go from here and were can we see this in action
   Documentation?
   Libraries to study
