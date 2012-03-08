@@ -33,8 +33,6 @@ f()();
 // Error, undefined, 1, null
 
 
-// seperate out hoisting and functional hoisting
-
 (function() {
   var x = 1;
   return function() {
@@ -43,20 +41,5 @@ f()();
   };
   var y = 2;
 }())();
-
-
-// talk about arguments?
-
-
-// uses jslint or jshint
-
-
-
-
-
-
-
-
-
-
+// Error, undefined, 1, null
 
