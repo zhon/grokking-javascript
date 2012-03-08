@@ -1,9 +1,17 @@
+
+Javascript is more than rotating text and AJAX callbacks. It is a language that is gaining in popularity and programmers. Every developer needs Javascript on the resume. It is time to take Javascript seriously.
+
+Gone (almost) are the days of fighting browser bugs (Modernizer) and stepping on language landmines. With ECMAScript 5 ("use strict";), JSLint and simplifying your language features:
+
+Javascript has become cool! <Dr Who in a Stetson>
+
 Javascript is a wonderful language composed of objects, functions and landmines.
 
-Javascript is for more than dancing unicorns and rainbows. The days of fighting browser bugs and stepping on language landmines are almost gone. With ECMAScript 5 ("use strict";), JSLint and simplifying your language features:
+While objects and landmines are important. Functions are the very best part of Javascript. They are almost perfect and mostly misunderstood. Today I am talking about functions.
 
-Javascript is cool! <Dr Who in a Stetson>
+If you already understand the brilliance of lexical scope, function scope, hoisting, closures, and curring, you might be in the wrong room.
 
+Lets start with a quiz.
 
 IO,
 <history and stats>
@@ -14,7 +22,6 @@ IO,
 
 functions are objects
 
-Modernizr, "use strict";
 
 Now the funny thing about functions is you can call them now or you can call them later (or you can call them not at all).
 

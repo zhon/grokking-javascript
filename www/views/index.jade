@@ -1,49 +1,61 @@
 
 div#impress
 
-  div#javascript-is-cool.step.slide(data-x="-1000", data-y="-1500")
+  div#title.step(data-x="0", data-y="0", data-scale="4")
+    p Grokking
+    h1
+      a(href="http://www.cornify.com", onclick="cornify_add();return false;") Javascript
+    p.by by
+    p Zhon Johansen
+    p @nohz
+    p zhon@xputah.org
+    p github.com/zhon
+
+  div#strict-lint.step
+    p "use strict";
+    p Modernizer
+    p JSLint.js
+
+  div#javascript-is-cool.step(data-x="-1000", data-y="-1500")
     img(src="/images/drwho_stetson.jpg", alt="Dr Who is Cool")
     p Javascript is cool
 
-  div#functional.step.slide(data-x="0", data-y="-1500")
-    p Functional programming is cool
-
-  div.step.slide(data-x="1000", data-y="-1500")
-    p More of the same
-
-  div#title.step(data-x="0", data-y="0", data-scale="4")
-    <span class="try">then you should try</span>
-    <h1>impress.js<sup>*</sup></h1>
-    <span class="footnote"><sup>*</sup> no rhyme intended</span>
+  div#objects-functions-landmines.step
+    p Objects
+    p Functions
+    p Landmines
 
   div#its.step(data-x="850", data-y="3000", data-rotate="90", data-scale="5")
-    p It's a <strong>Rotate</strong> <br/>
-
-  div#tiny.step(data-x="2825", data-y="2325", data-z="-3000", data-rotate="300", data-scale="1")
-        <p>and <b>tiny</b> ideas</p>
+    h1 Functions
+    p write them
+    p call
+    p call later
 
   div#ing.step(data-x="3500", data-y="-850", data-rotate="270", data-scale="6")
-     <p>by <b class="positioning">positioning</b>, <b class="rotating">rotating</b> and <b class="scaling">scaling</b> them on an infinite canvas</p>
-  /div>
+    pre
+      include ../../quiz/function/call/1.js
 
   div#imagination.step(data-x="6700", data-y="-300", data-scale="6")
-     <p>the only <b>limit</b> is your <b class="imagination">imagination</b></p>
+    pre
+      include ../../quiz/function/call/2.js
+
+  div#tiny.step(data-x="2825", data-y="2325", data-z="-3000", data-rotate="300", data-scale="1")
+    pre
+      include ../../quiz/function/call/3.js
 
   div#source.step(data-x="6300", data-y="2000", data-rotate="20", data-scale="4")
-     <p>want to know more?</p>
-     <q><a href="http://github.com/bartaz/impress.js">use the source</a>, Luke!</q>
+    pre
+      include ../../quiz/function/call/4.js
 
   div#one-more-thing.step(data-x="6000", data-y="4000", data-scale="2")
-     <p>one more thing...</p>
 
   div#its-in-3d.step(data-x="6200", data-y="4300", data-z="-100", data-rotate-x="-40", data-rotate-y="10", data-scale="2")
-    <p><span class="have">have</span> <span class="you">you</span> <span class="noticed">noticed</span> <span class="its">it's</span> <span class="in">in</span> <b>3D<sup>*</sup></b>?</p>
-    <span class="footnote">* beat that, prezi ;)</span>
 
   div#overview.step(data-x="3000", data-y="1500", data-scale="10")
 
 
 //- needs to be last
+script(src="http://www.cornify.com/js/cornify.js")
 script(src="javascript/impress.js")
 script
   impress();

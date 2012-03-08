@@ -6,7 +6,4 @@ function y() {
   return 1;
 }
 print(typeof y);
-// number
-// function
-// undefined
-// Error
+// number function undefined Error

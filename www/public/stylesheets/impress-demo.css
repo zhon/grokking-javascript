@@ -185,12 +185,14 @@ a,iframe,
     transform:         translateY(0px);
 }
 
-/* impress.js title */
+/* title */
 
 #title {
     padding: 0;
+    text-align: center;
 }
 
+/*going away*/
 #title .try {
     font-size: 64px;
     position: absolute;
@@ -205,7 +207,7 @@ a,iframe,
 }
 
 #title h1 {
-    font-size: 190px;
+    font-size: 160px;
 
     -webkit-transform: translateZ(50px);
     -moz-transform:    translateZ(50px);
@@ -216,6 +218,10 @@ a,iframe,
 
 #title .footnote {
     font-size: 32px;
+}
+
+#title p.by {
+  font-size: 16px;
 }
 
 /* big thoughts */
