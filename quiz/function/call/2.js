@@ -1,7 +1,6 @@
 "use strict";
 var print = console.log;
 
-
 function y() {
   return 1;
 }
