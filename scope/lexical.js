@@ -24,11 +24,10 @@ f()();
 
 
 (function() {
-  var x, fn = function() {
+  return function() {
     print(x);
   };
-  x = 1;
-  return fn;
+  var x = 1;
 }())();
 // Error, undefined, 1, null
 
