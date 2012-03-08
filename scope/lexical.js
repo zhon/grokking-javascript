@@ -32,13 +32,15 @@ f()();
 // Error, undefined, 1, null
 
 
-(function() {
+var x = "Javascript is cool";
+f = (function() {
   var x = 1;
   return function() {
     print(x);
-    print(y);
+    x += 1;
   };
-  var y = 2;
-}())();
-// Error, undefined, 1, null
+}());
+f();
+print(x);
+f();
 
