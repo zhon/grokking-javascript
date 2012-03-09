@@ -132,78 +132,30 @@ a,iframe,
 }
 
 .step:not(.active) {
-    opacity: 0.3;
+    opacity: 0.1;
 }
 
 /* STEP SPECIFIC STYLES */
 
-/* hint on the first slide */
-
-.hint {
-    position: fixed;
-    left: 0;
-    right: 0;
-    bottom: 200px;
-
-    background: rgba(0,0,0,0.5);
-    color: #EEE;
+h1 {
     text-align: center;
-
-    font-size: 50px;
-    padding: 20px;
-
-    z-index: 100;
-
-    opacity: 0;
-
-    -webkit-transform: translateY(400px);
-    -moz-transform:    translateY(400px);
-    -ms-transform:     translateY(400px);
-    -o-transform:      translateY(400px);
-    transform:         translateY(400px);
-
-    -webkit-transition: opacity 1s, -webkit-transform 0.5s 1s;
-    -moz-transition:    opacity 1s,    -moz-transform 0.5s 1s;
-    -ms-transition:     opacity 1s,     -ms-transform 0.5s 1s;
-    -o-transition:      opacity 1s,      -o-transform 0.5s 1s;
-    transition:         opacity 1s,         transform 0.5s 1s;
+    font-size: 150%;
 }
 
-.step-bored + .hint {
-    opacity: 1;
-
-    -webkit-transition: opacity 1s 5s, -webkit-transform 0.5s;
-    -moz-transition:    opacity 1s 5s,    -moz-transform 0.5s;
-    -ms-transition:     opacity 1s 5s,     -ms-transform 0.5s;
-    -o-transition:      opacity 1s 5s,      -o-transform 0.5s;
-    transition:         opacity 1s 5s,         transform 0.5s;
-
-    -webkit-transform: translateY(0px);
-    -moz-transform:    translateY(0px);
-    -ms-transform:     translateY(0px);
-    -o-transform:      translateY(0px);
-    transform:         translateY(0px);
+pre {
+    font: 32px "Lucida Grande", Helvetica, Arial, sans-serif;
+    background-color: white;
 }
 
 /* title */
-
 #title {
     padding: 0;
     text-align: center;
+    font-size: 32px;
 }
 
-/*going away*/
-#title .try {
-    font-size: 64px;
-    position: absolute;
-    top: -0.5em;
-    left: 1.5em;
-
-    -webkit-transform: translateZ(20px);
-    -moz-transform:    translateZ(20px);
-    -ms-transform:     translateZ(20px);
-    -o-transform:      translateZ(20px);
-    transform:         translateZ(20px);
+#title #author {
+  font-size: 120%;
 }
 
 #title h1 {
@@ -216,12 +168,30 @@ a,iframe,
     transform:         translateZ(50px);
 }
 
-#title .footnote {
-    font-size: 32px;
+#title span {
+    position: fixed;
+    top: -35px;
+    right: 70px;
+    font-size: 48px;
 }
-
 #title p.by {
   font-size: 16px;
+}
+
+#javascript-is-cool {
+  width: 1150px;
+}
+
+/*java script is cool*/
+
+#javascript-is-cool p {
+    position: fixed;
+    top: 440px;
+    left: 60px;
+}
+
+#objects {
+
 }
 
 /* big thoughts */

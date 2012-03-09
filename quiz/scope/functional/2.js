@@ -1,7 +1,7 @@
 "use strict";
 
 (function() {
-  console.log(x);
+    console.log(x);
 }());
 // Error, undefined, 1, null
 

@@ -5,4 +5,3 @@ Math.max() < Math.max(); // false
 var foo = [0];
 foo == foo;   // true
 foo == !foo;  // true
-
