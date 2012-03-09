@@ -82,17 +82,21 @@ div#impress
     pre
       include ../../quiz/scope/functional/5.js
 
-  div#conclusion.step(data-x="1900", data-y="3900", data-rotate="42", data-scale="4")
-    h1 now what?
-    p jquery.js
-    p underscore.js
+  div#conclusion.step(data-x="1900", data-y="3900", data-rotate="25", data-scale="4")
+    h1 curry
+    h1 closures
+    h1 lexical scope
+    h1 partial application
+    h1 higher order functions
     p Javascript the Good Parts
+    p underscore.js
+    p jquery.js
 
   div#overview.step(data-x="3000", data-y="1500", data-scale="10")
 
 //- needs to be last
-script(src="http://www.cornify.com/js/cornify.js")
 script(src="javascript/impress.js")
 script
   impress();
+script(src="http://www.cornify.com/js/cornify.js")
 
