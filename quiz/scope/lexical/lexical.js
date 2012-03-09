@@ -24,8 +24,8 @@ f(3)[0]();
 // 1, 2, 3, 4
 
 var f = function(count) {
-    var arr = [], i=1;
-    var mk_fun = function(x) {
+    var arr = [], i=1,
+        mk_fun = function(x) {
         return function() {
             print(x);
         }

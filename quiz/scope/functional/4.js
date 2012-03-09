@@ -4,4 +4,4 @@
     };
     var x = 1;
 }())();
-// Error, undefined, 1, null
+// 1 function undefined error

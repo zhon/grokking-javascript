@@ -1,5 +1,4 @@
 (function() {
     console.log(x);
 }());
-// Error, undefined, 1, null
-
+// 1 function undefined error

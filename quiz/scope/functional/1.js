@@ -5,4 +5,4 @@ var f = function () {
     };
 };
 f()();
-// Error, undefined, 1, null
+// 1 function undefined error
