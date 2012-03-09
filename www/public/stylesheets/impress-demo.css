@@ -241,6 +241,7 @@ pre {
 #overview {
     z-index: -1;
     padding: 0;
+
 }
 
 /* on overview step everything is visible */
@@ -248,6 +249,9 @@ pre {
 #impress.step-overview .step {
     opacity: 1;
     cursor: pointer;
+
+    top: -100px;
+    left: 900px;
 }
 
 /*
