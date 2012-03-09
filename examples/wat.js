@@ -1,7 +1,7 @@
-Math.max() < Math.max(); // false
-0 == '0'      // true
-+ "1"         // 1
-2 + "1"       // '21'
+0 == '0'
+(+ "3") != 2 + "1"
 var foo = [0];
-foo == foo;   // true
-foo == !foo;  // true
+foo == foo;
+foo == !foo;
+!undefined==!null==!0==!""==!NaN==!false
+undefined==null!=0!=""!=NaN!=false
