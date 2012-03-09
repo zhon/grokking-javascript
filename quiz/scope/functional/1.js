@@ -1,5 +1,3 @@
-"use strict";
-
 var f = function () {
     var x = 1;
     return function() {

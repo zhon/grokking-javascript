@@ -1,5 +1,3 @@
-"use strict";
-
 (function() {
     console.log(x);
 }());

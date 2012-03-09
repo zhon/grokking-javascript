@@ -11,13 +11,13 @@ div#impress
     p zhon@xputah.org
     p github.com/zhon
 
-  div.step(data-x="-3000", data-y="-1000", data-rotate="-40", data-scale="2")
+  div.step(data-x="-2000", data-y="-900", data-rotate="-40", data-scale="4")
     p Modernizer
 
-  div.step(data-x="-2900", data-y="-980", data-rotate="-45", data-scale="2")
+  div.step(data-x="-1900", data-y="-880", data-rotate="-45", data-scale="4")
     p "use strict";
 
-  div#lint.step(data-x="-2800", data-y="-950", data-rotate="-50", data-scale="2")
+  div#lint.step(data-x="-1800", data-y="-850", data-rotate="-50", data-scale="3")
     p jslint.js
 
   div#javascript-is-cool.step(data-x="-1000", data-y="-1500", data-scale=1)
@@ -29,45 +29,66 @@ div#impress
     pre
       include ../../examples/person.js
 
-  div#functions.step
+  div#functions.step(data-x="800", data-y="2500", data-rotate="-30", data-scale="4")
     h1 Functions
     pre
       include ../../examples/reduce.js
 
-  div#landmines.step
+  div#landmines.step(data-x="-2500", data-y="1500", data-rotate="-60", data-scale="4")
     h1 Landmines
       pre
         include ../../examples/wat.js
     p http://wtfjs.com/
 
-  div#its.step(data-x="850", data-y="3000", data-rotate="90", data-scale="5")
-    h1 Functions
-    p call them
-    p call them later
-    p write them
+  div.step(data-x="-450", data-y="1700", data-rotate="10", data-scale="4")
+    h1 call
 
-  div#ing.step(data-x="3500", data-y="-850", data-rotate="270", data-scale="6")
+  div#q1.step(data-x="3000", data-y="-850", data-rotate="20", data-scale="3")
     pre
       include ../../quiz/function/call/1.js
 
-  div#imagination.step(data-x="6700", data-y="-300", data-scale="6")
+  div#q2.step(data-x="4700", data-y="300", data-scale="3")
     pre
       include ../../quiz/function/call/2.js
 
-  div#tiny.step(data-x="2825", data-y="2325", data-z="-3000", data-rotate="300", data-scale="1")
+  div#q3.step(data-x="4000", data-y="900", data-z="30", data-rotate="30", data-scale="1")
     pre
       include ../../quiz/function/call/3.js
 
-  div#source.step(data-x="6300", data-y="2000", data-rotate="20", data-scale="4")
+  div#q4.step(data-x="5500", data-y="1500", data-rotate="20", data-scale="3")
     pre
       include ../../quiz/function/call/4.js
 
-  div#one-more-thing.step(data-x="6000", data-y="4000", data-scale="2")
+  div#scope.step(data-x="500", data-y="1300", data-rotate="-50", data-scale="4")
+    h1 scope
 
-  div#its-in-3d.step(data-x="6200", data-y="4300", data-z="-100", data-rotate-x="-40", data-rotate-y="10", data-scale="2")
+  div#sq1.step(data-x="5000", data-y="2500", data-z="-100", data-rotate-x="-40", data-rotate-y="10", data-scale="2")
+    pre
+      include ../../quiz/scope/functional/1.js
+
+  div#sq2.step(data-x="5500", data-y="3000", data-z="-100", data-rotate-x="-40", data-rotate-y="10", data-scale="2")
+    pre
+      include ../../quiz/scope/functional/2.js
+
+  div#sq3.step(data-x="6000", data-y="3500", data-z="-100", data-rotate-x="-40", data-rotate-y="10", data-scale="2")
+    pre
+      include ../../quiz/scope/functional/3.js
+
+  div#sq4.step(data-x="6500", data-y="4000", data-z="-100", data-rotate-x="-40", data-rotate-y="10", data-scale="2")
+    pre
+      include ../../quiz/scope/functional/4.js
+
+  div#sq5.step(data-x="7000", data-y="4500", data-z="-100", data-rotate-x="-40", data-rotate-y="10", data-scale="2")
+    pre
+      include ../../quiz/scope/functional/5.js
+
+  div#conclusion.step(data-x="1900", data-y="3900", data-rotate="42", data-scale="4")
+    h1 now what?
+    p jquery.js
+    p underscore.js
+    p Javascript the Good Parts
 
   div#overview.step(data-x="3000", data-y="1500", data-scale="10")
-
 
 //- needs to be last
 script(src="http://www.cornify.com/js/cornify.js")

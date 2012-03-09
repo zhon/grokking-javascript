@@ -1,5 +1,3 @@
-"use strict";
-
-var x = (function () { return 1; })();
+var x = (function () { return 1; }());
 console.log(typeof x);
 // number function undefined error

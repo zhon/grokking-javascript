@@ -1,5 +1,3 @@
-"use strict";
-
 var x = "Javascript is cool";
 var f = (function() {
     var x = 1;
@@ -11,4 +9,3 @@ var f = (function() {
 f();
 console.log(x);
 f();
-
