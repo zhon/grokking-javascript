@@ -1,6 +1,6 @@
 | <script>
 |   function print(str) {
-|       print.result += "\\n" +  str;
+|       print.result += str + "<br/>";
 |  };
 | </script>
 
@@ -59,14 +59,26 @@ div#impress
   div#q2.step(data-x="4700", data-y="300", data-scale="3")
     pre
       include ../../quiz/function/call/2.js
+    span.answer
+      != "<a class='answer' href='#' onclick='print.result=\"\";var q=function(){"
+      include ../../quiz/function/call/2.js
+      != "};q();this.parentNode.innerHTML=print.result;return false;'>answer</a>"
 
   div#q3.step(data-x="4000", data-y="900", data-z="30", data-rotate="30", data-scale="1")
     pre
       include ../../quiz/function/call/3.js
+    span.answer
+      != "<a class='answer' href='#' onclick='print.result=\"\";var q=function(){"
+      include ../../quiz/function/call/3.js
+      != "};q();this.parentNode.innerHTML=print.result;return false;'>answer</a>"
 
   div#q4.step(data-x="5500", data-y="1500", data-rotate="20", data-scale="3")
     pre
       include ../../quiz/function/call/4.js
+    span.answer
+      != "<a class='answer' href='#' onclick='print.result=\"\";var q=function(){"
+      include ../../quiz/function/call/4.js
+      != "};q();this.parentNode.innerHTML=print.result;return false;'>answer</a>"
 
   div#scope.step(data-x="500", data-y="1300", data-rotate="-50", data-scale="4")
     h1 scope
@@ -74,22 +86,43 @@ div#impress
   div#sq1.step(data-x="5000", data-y="2500", data-z="-100", data-rotate-x="-40", data-rotate-y="10", data-scale="2")
     pre
       include ../../quiz/scope/functional/1.js
+    span.answer
+      != "<a class='answer' href='#' onclick='print.result=\"\";var q=function(){"
+      include ../../quiz/scope/functional/1.js
+      != "};q();this.parentNode.innerHTML=print.result;return false;'>answer</a>"
 
   div#sq2.step(data-x="5500", data-y="3000", data-z="-100", data-rotate-x="-40", data-rotate-y="10", data-scale="2")
     pre
       include ../../quiz/scope/functional/2.js
+    span.answer
+      != "<a class='answer' href='#' onclick='print.result=\"\";var q=function(){"
+      include ../../quiz/scope/functional/2.js
+      != "};try{q()}catch(e){print(e);};this.parentNode.innerHTML=print.result;return false;'>answer</a>"
 
   div#sq3.step(data-x="6000", data-y="3500", data-z="-100", data-rotate-x="-40", data-rotate-y="10", data-scale="2")
     pre
       include ../../quiz/scope/functional/3.js
+    span.answer
+      != "<a class='answer' href='#' onclick='print.result=\"\";var q=function(){"
+      include ../../quiz/scope/functional/3.js
+      != "};q();this.parentNode.innerHTML=print.result;return false;'>answer</a>"
 
   div#sq4.step(data-x="6500", data-y="4000", data-z="-100", data-rotate-x="-40", data-rotate-y="10", data-scale="2")
     pre
       include ../../quiz/scope/functional/4.js
+    span.answer
+      != "<a class='answer' href='#' onclick='print.result=\"\";var q=function(){"
+      include ../../quiz/scope/functional/4.js
+      != "};q();this.parentNode.innerHTML=print.result;return false;'>answer</a>"
+
 
   div#sq5.step(data-x="7000", data-y="4500", data-z="-100", data-rotate-x="-40", data-rotate-y="10", data-scale="2")
     pre
       include ../../quiz/scope/functional/5.js
+    span.answer
+      != "<a class='answer' href='#' onclick='print.result=\"\";var q=function(){"
+      include ../../quiz/scope/functional/5.js
+      != "};q();this.parentNode.innerHTML=print.result;return false;'>answer</a>"
 
   div#conclusion.step(data-x="1900", data-y="3900", data-rotate="25", data-scale="4")
     h1 curry

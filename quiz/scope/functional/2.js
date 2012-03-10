@@ -1,4 +1,4 @@
 (function() {
-    console.log(x);
+    print(x);
 }());
 // 1 function undefined error

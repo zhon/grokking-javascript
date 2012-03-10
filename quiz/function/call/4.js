@@ -1,3 +1,3 @@
 var x = (function(){}());
-console.log(typeof x);
+print(typeof x);
 // number function undefined Error

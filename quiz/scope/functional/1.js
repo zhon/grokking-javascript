@@ -1,7 +1,7 @@
 var f = function () {
     var x = 1;
     return function() {
-        console.log(x);
+        print(x);
     };
 };
 f()();
