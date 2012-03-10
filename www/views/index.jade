@@ -46,6 +46,14 @@ div#impress
   div#q1.step(data-x="3000", data-y="-850", data-rotate="20", data-scale="3")
     pre
       include ../../quiz/function/call/1.js
+    span.answer
+      != "<a class='answer' href='#' onclick='this.parentNode.innerHTML=function(){"
+      include ../../quiz/function/call/1.js
+      != "}();return false;'>answer</a>"
+
+      //-a(href='#', onclick='this.parentNode.innerHTML = "hello";return false;') Huh?
+
+
 
   div#q2.step(data-x="4700", data-y="300", data-scale="3")
     pre

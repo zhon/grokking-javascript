@@ -17,6 +17,7 @@
         print(n + ": " + fib(n));
     };
 
+    // Not for numbers over 40
     fib = function(n) {
         if (n === 0) { return 0; }
         if (n === 1) { return 1; }
