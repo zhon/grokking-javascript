@@ -1,3 +1,8 @@
+| <script>
+|   function print(str) {
+|       print.result += "\\n" +  str;
+|  };
+| </script>
 
 div#impress
 
@@ -47,13 +52,9 @@ div#impress
     pre
       include ../../quiz/function/call/1.js
     span.answer
-      != "<a class='answer' href='#' onclick='this.parentNode.innerHTML=function(){"
+      != "<a class='answer' href='#' onclick='print.result=\"\";var q=function(){"
       include ../../quiz/function/call/1.js
-      != "}();return false;'>answer</a>"
-
-      //-a(href='#', onclick='this.parentNode.innerHTML = "hello";return false;') Huh?
-
-
+      != "};q();this.parentNode.innerHTML=print.result;return false;'>answer</a>"
 
   div#q2.step(data-x="4700", data-y="300", data-scale="3")
     pre
@@ -107,4 +108,5 @@ script(src="javascript/impress.js")
 script
   impress();
 script(src="http://www.cornify.com/js/cornify.js")
+
 
