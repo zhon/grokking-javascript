@@ -1,17 +1,11 @@
 To run the presentation you will need a webserver and something that can process jade. I am using Express.js, Impress.js and Jade.js.
 
+Installation
+
+Install node.js
+Install impress.js
 
 Introduction
-
-Javascript is more than unicorns, rainbows and AJAX callbacks. It is a language that is gaining in popularity and programmers. More people have programed in Javascript than any other language. There might be more lines of javascript code than C and C++. Pretty awesome for a language written in 10 days? You need Javascript on your resume.
-
-Speaking of resumes, my javascript hating friend, Jeff went in for an interveiw. He sat down. The questions and answers started flow. It was going well until he was asked, "What do you know about javascript?"
-
-It is time to take Javascript seriously, already!
-
-Gone (almost) are the days of fighting browser bugs (thank you Modernizer) and stepping on language landmines (thank you Doug). With ECMAScript 5 ("use strict";), JSLint and simplifying your language features:
-
-Javascript is cool! <Dr Who in a Stetson>
 
 Javascript is a wonderful language composed of objects, functions and landmines: https://www.destroyallsoftware.com/talks/wat
 
@@ -19,21 +13,17 @@ While objects and landmines are important. Functions are the very best part of J
 
 If you already understand the brilliance of lexical scope, function scope, hoisting, higher order functions, closures, and curring, you might be in the wrong room.
 
-Lets start with a quiz.
+You can do two things with functions: call them and call them later.
 
-IO,
-<history and stats>
+Quiz on calling functions.
 
-<inspire>
+Next you need to understand functional scope and lexical scope.
 
-<brilliant>
+Quiz on both types of scope.
 
-functions are objects
+Show the beauty of a well written javascript in a functional style (count_zeroes.js)
 
-
-Now the funny thing about functions is you can call them now or you can call them later (or you can call them not at all).
-
-<inspire>
+If we have time fib.js would be cool to show Y Combinator with caching.
 
 from http://www.2ality.com/2012/02/js-pitfalls.html
 Major Javascript pitfalls
@@ -43,7 +33,7 @@ Major Javascript pitfalls
 Minor Javascript pitfalls
   Function-scoped variables
   Inadvertent sharing via closures
-  Extracted methods can’t use this
+  Extracted methods can't use this
   Creating global variables via this
   Automatic creation of globals
   Comparison via == is weird
@@ -61,4 +51,5 @@ Libraries I am not going to talk about
   Impress
   Express
   Connect
+  Jade
 

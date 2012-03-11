@@ -1,7 +1,6 @@
-
 Introduction
   Javascript written in 2 weeks by Brendan Eich
-  Some argue Javascript is most popular language by lines of code and programmers
+  Javascript might have more programmers and lines of code than any other language
   Alistair's http://alistair.cockburn.us/Elephant+Carpaccio+exercise
 
 Functions
@@ -16,6 +15,7 @@ Functions
 
 Scope
   Lexically vs Dynamically
+  Functional vs Block
   Call chain
   Activation object (call object)
   this
